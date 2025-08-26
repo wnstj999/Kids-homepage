@@ -1,0 +1,25 @@
+.note-item {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+.note-item h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1f2937;
+}
+.note-item p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 14px;
+}
+.note-item small {
+  display: block;
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 12px;
+}

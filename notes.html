@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>알림장 목록 - KidsNote Mini</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/notes.css">
+</head>
+<body>
+  <div class="navbar">
+    <span>KidsNote Mini</span>
+    <div>
+      <a href="notes.html">알림장 목록</a>
+      <a href="new-note.html">작성하기</a>
+      <a href="#" onclick="logout()">로그아웃</a>
+    </div>
+  </div>
+  <div class="container">
+    <h2>알림장 목록</h2>
+    <div id="notesList"></div>
+  </div>
+  <script src="js/storage.js"></script>
+  <script src="js/notes.js"></script>
+</body>
+</html>
